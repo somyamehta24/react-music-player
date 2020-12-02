@@ -1,0 +1,2 @@
+npm install --save react-bootstrap-validation
+npm i styled-components

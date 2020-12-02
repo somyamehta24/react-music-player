@@ -3,23 +3,29 @@ import Home from './Views/Home'
 import Player from './Views/Player'
 import Login from './Views/Login'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import ResponsiveDrawer from './Components/Drawer';
+
 
 function App() {
   return (
     <div>
+      
       <Router>
 
         <Switch>
           <Route exact path="/">
             <Home />
+            
           </Route>
 
           <Route exact path="/login">
             <Login />
+            
           </Route>
 
           <Route exact path="/app">
-            <Player />
+            {/* <Player /> */}
+            <ResponsiveDrawer />
           </Route>
 
           <Route exact path="*">
