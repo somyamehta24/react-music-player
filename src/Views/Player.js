@@ -9,7 +9,7 @@ export default function Player() {
         <div>
             <Drawer />
             <MainPlayer />
-            <Button variant="contained" color="primary">Hello World</Button>
+            {/* <Button variant="contained" color="primary">Hello World</Button> */}
         </div>
     )
 }
