@@ -1,9 +1,10 @@
 import React from 'react'
+import Button from '@material-ui/core/Button'
 
 export default function Home() {
     return (
         <div>
-            <h1>HOME PAGE</h1>
+            <Button variant="contained" color="primary">Hello World</Button>
         </div>
     )
 }
